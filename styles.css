@@ -1,0 +1,109 @@
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.a2 {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fab:hover {
+    color: black;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 13vw;
+}
+
+.navbar {
+    background-color: hsla(0,0%,100%,0);
+    transition:500ms ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(234,236,239,.81);
+}
+
+.index-background {
+    background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+    animation: gradient 20s ease infinite;
+    background-position: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p-5 {
+    padding: 1.5rem!important;
+}
+
+.vertical-center {
+    align-items: center;
+}
+
+.hero-content {
+    margin-top: var(--nav-height);
+    flex-grow: 1;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+
+.skills-tabs {
+    flex-grow: 1;
+}
+
+.skills-tab {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.lead {
+    font-weight: 300;
+}
+.h5, .lead, h5 {
+    font-size: 1.25rem;
+}
